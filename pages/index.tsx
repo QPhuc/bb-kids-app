@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/logo.jpg" />
       </Head>
       <main>
-        aaaa
+        Link to: <Link href="/posts/first-post"> Post</Link>
       </main>
     </>
   )
