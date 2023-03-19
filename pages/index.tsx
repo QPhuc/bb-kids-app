@@ -1,7 +1,16 @@
+import { auth } from '@/config/firebase';
+import { signOut } from 'firebase/auth';
 import Head from 'next/head'
 import Link from 'next/link'
 
 export default function Home() {
+  const logout = async () => {
+    try {
+      await signOut(auth);
+    } catch (error) {
+      console.log(error);
+    }
+  }
   return (
     <>
       <Head>
@@ -12,6 +21,7 @@ export default function Home() {
       </Head>
       <main>
         Link to: <Link href="/posts/first-post"> Post</Link>
+        <button onClick={logout}>Logout</button>
       </main>
     </>
   )
