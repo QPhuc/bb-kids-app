@@ -1,0 +1,14 @@
+.nav-title {
+    color: #262525;
+    position: relative;
+
+    &:after {
+        content: "**";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        height: 1px;
+        width: 16px;
+        background-color: #262525;
+    }
+}
