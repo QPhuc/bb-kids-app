@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
-import Layout from '@/components/Layout'
-import '@/styles/globals.scss'
-import type { AppProps } from 'next/app'
+import Layout from '@/components/Layout';
+import '@/styles/globals.scss';
+import '@/styles/colors.scss';
+import type { AppProps } from 'next/app';
 import Login from './login';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, db } from '@/config/firebase';
