@@ -16,11 +16,11 @@ export default function App({ Component, pageProps }: AppProps) {
       try {
         await setDoc(
           doc(db, 'users', loggedInUser?.uid as string), {
-            email: loggedInUser?.email,
-            lastSeen: serverTimestamp(),
-            photoURL: loggedInUser?.photoURL
+          email: loggedInUser?.email,
+          lastSeen: serverTimestamp(),
+          photoURL: loggedInUser?.photoURL
         },
-          {merge: true} // just  update what is changed
+          { merge: true } // just  update what is changed
         );
       } catch (error) {
         console.log('ERROR SETTING USER INFO IN DB', error);
@@ -30,13 +30,13 @@ export default function App({ Component, pageProps }: AppProps) {
       setUserInDb();
     }
   }, [loggedInUser])
-  
 
-  if(loading) return <Loading/>
+
+  if (loading) return <Loading />
   if (!loggedInUser) return <Login />
   return (
-    // <Layout>
-    <Component {...pageProps} />
-  // </Layout >
+    <Layout>
+      <Component {...pageProps} />
+    </Layout >
   )
 }
