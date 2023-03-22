@@ -11,11 +11,16 @@ export const StyledHeader = styled.div`
 `
 
 export const StyledHeaderWrapper = styled.div`
-    
+    display: flex;
+    align-items:center;
+    flex: 1;
+    justify-content: space-around;
 `
 
 export const StyledHeaderNav = styled.div`
     display: flex;
+    flex: 1;
+    justify-content: center;
     list-style-type: none;
 `
 
@@ -34,5 +39,21 @@ export const StyledHeaderAfterNav = styled.div`
 `
 
 export const StyledHeaderRightWrapper = styled.div`
+    
+`
+
+export const StyledIcon = styled.span`
+    font-size: 28px;
+`
+
+export const StyledWrapperIcon = styled.div`
+    display: inline-block;
+`
+
+export const StyledBasketCount = styled.span`
+    
+`
+
+export const StyledBasketIcon = styled.span`
     
 `
