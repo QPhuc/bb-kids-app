@@ -49,7 +49,9 @@ export default function Header() {
       <StyledHeaderRightWrapper>
         <StyledBasketCount>0</StyledBasketCount>
         <StyledBasketIcon>
+          <StyledIcon>
           <WorkOutlineSharpIcon fontSize="inherit" />
+          </StyledIcon>
         </StyledBasketIcon>
       </StyledHeaderRightWrapper>
     </StyledHeader>
