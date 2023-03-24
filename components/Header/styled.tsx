@@ -34,7 +34,13 @@ export const StyledHeaderNavItem = styled.li`
 `
 
 export const StyledNavTitle = styled.span`
-    
+    position: relative;
+    &:hover {
+        text-decoration: underline;
+        text-underline-offset:6px;
+        text-decoration-thickness: 1px;
+    /* background-color: #262525; */
+    }
 `
 
 export const StyledHeaderAfterNav = styled.div`
