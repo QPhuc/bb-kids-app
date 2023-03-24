@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { StyledHeader, StyledHeaderWrapper, StyledHeaderNav, StyledHeaderRightWrapper, StyledHeaderAfterNav, StyledHeaderNavItem, StyledIcon, StyledWrapperIcon, StyledBasketIcon, StyledBasketCount } from './styled';
+import { StyledHeader, StyledHeaderWrapper, StyledHeaderNav, StyledHeaderRightWrapper, StyledHeaderAfterNav, StyledHeaderNavItem, StyledIcon, StyledWrapperIcon, StyledBasketIcon, StyledBasketCount, StyledNavTitle } from './styled';
 import Logo from '@/assets/logo.jpg';
 import styles from './styles.module.scss';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
@@ -15,25 +15,25 @@ export default function Header() {
       <StyledHeaderWrapper>
         <StyledHeaderNav>
           <StyledHeaderNavItem>
-            <a href=''><span className={styles.navTitle}>NEW</span></a>
+            <a href=''><StyledNavTitle className={styles.navTitle}>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><span className='nav-title'>NEW</span></a>
+            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
           </StyledHeaderNavItem>
         </StyledHeaderNav>
         <StyledHeaderAfterNav>
