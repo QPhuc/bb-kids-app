@@ -15,25 +15,22 @@ export default function Header() {
       <StyledHeaderWrapper>
         <StyledHeaderNav>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className={styles.navTitle}>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className={styles.navTitle}>SALE</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className='nav-title'>WOMEN</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className='nav-title'>MEN</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className='nav-title'>GILRS</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className='nav-title'>BOYS</StyledNavTitle></a>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
-          </StyledHeaderNavItem>
-          <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>NEW</StyledNavTitle></a>
+            <a href=''><StyledNavTitle className='nav-title'>BABY</StyledNavTitle></a>
           </StyledHeaderNavItem>
         </StyledHeaderNav>
         <StyledHeaderAfterNav>
