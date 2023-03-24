@@ -3,7 +3,7 @@ import Head from 'next/head';
 import styled from 'styled-components';
 import { Button } from '@mui/material';
 import Image from 'next/image';
-import WhatsAppLogo from '../assets/logo.jpg';
+import WhatsAppLogo from '../assets/images/logo.jpg';
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { auth } from '@/config/firebase';
 
