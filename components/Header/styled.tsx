@@ -4,7 +4,6 @@ export const StyledHeader = styled.div`
     display: flex;
     flex: 1;
     height: 80px;
-    width: 100%;
     padding: 0 16px;
     justify-content: space-between;
     border: 1px solid #f0f0f0;
