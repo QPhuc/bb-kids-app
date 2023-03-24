@@ -33,6 +33,10 @@ export const StyledHeaderNavItem = styled.li`
     }
 `
 
+export const StyledNavTitle = styled.span`
+    
+`
+
 export const StyledHeaderAfterNav = styled.div`
     
 `
