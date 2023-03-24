@@ -52,7 +52,9 @@ export const StyledWrapperIcon = styled.div`
 `
 
 export const StyledBasketCount = styled.span`
-    
+    position: absolute;
+    left: 9px;
+    top: 27px;
 `
 
 export const StyledBasketIcon = styled.span`
