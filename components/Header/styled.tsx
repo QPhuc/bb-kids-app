@@ -38,7 +38,9 @@ export const StyledHeaderAfterNav = styled.div`
 `
 
 export const StyledHeaderRightWrapper = styled.div`
-    
+    display: flex;
+    align-items: center;
+    position: relative;
 `
 
 export const StyledIcon = styled.span`
@@ -54,5 +56,5 @@ export const StyledBasketCount = styled.span`
 `
 
 export const StyledBasketIcon = styled.span`
-    
+    display: block;
 `
