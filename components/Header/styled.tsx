@@ -55,6 +55,7 @@ export const StyledHeaderRightWrapper = styled.div`
 
 export const StyledIcon = styled.span`
     font-size: 28px;
+    cursor: pointer;
 `
 
 export const StyledWrapperIcon = styled.div`
