@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.css';
 import '@/styles/globals.scss';
 import '@/styles/colors.scss';
 import type { AppProps } from 'next/app';
