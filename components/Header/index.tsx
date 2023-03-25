@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { StyledHeader, StyledHeaderWrapper, StyledHeaderNav, StyledHeaderRightWrapper, StyledHeaderAfterNav, StyledHeaderNavItem, StyledIcon, StyledWrapperIcon, StyledBasketIcon, StyledBasketCount, StyledNavTitle } from './styled';
-import Logo from '@/assets/logo.jpg';
+import Logo from '@/assets/images/logo.jpg';
 import styles from './styles.module.scss';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import PersonOutlineSharpIcon from '@mui/icons-material/PersonOutlineSharp';
