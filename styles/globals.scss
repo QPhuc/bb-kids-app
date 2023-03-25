@@ -1,12 +1,26 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
     min-height: 100vh;
     font-family: 'Nunito Sans', sans-serif;
+    font-size: 62.5%;
+    font-weight: 300;
 }
 
-a {
+a,
+a:hover {
     text-decoration: none;
-    color: #000;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p, body, h3, h4, h5,h6, p ,span, ul {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: var(--dark-color)
 }
