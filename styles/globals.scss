@@ -24,3 +24,11 @@ p, body, h3, h4, h5,h6, p ,span, ul {
     line-height: 1.6;
     color: var(--dark-color)
 }
+
+p {
+    margin: 0;
+}
+
+input:focus-visible {
+    outline: none;
+}
