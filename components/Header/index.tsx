@@ -7,11 +7,12 @@ import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import PersonOutlineSharpIcon from '@mui/icons-material/PersonOutlineSharp';
 import KeyboardArrowDownSharpIcon from '@mui/icons-material/KeyboardArrowDownSharp';
 import WorkOutlineSharpIcon from '@mui/icons-material/WorkOutlineSharp';
+import Link from 'next/link';
 
 export default function Header() {
   return (
     <StyledHeader>
-      <Image src={Logo} alt="Logo" width={80} height={80} />
+      <Link href="/"><Image src={Logo} alt="Logo" width={80} height={80} /></Link>
       <StyledHeaderWrapper>
         <StyledHeaderNav>
           <StyledHeaderNavItem>
