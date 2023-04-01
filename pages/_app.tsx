@@ -3,14 +3,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '@/styles/globals.scss';
 import '@/styles/colors.scss';
 import type { AppProps } from 'next/app';
+
 import Login from './login';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { auth, db } from '@/config/firebase';
 import Loading from '../components/Loading';
 import { doc, serverTimestamp, setDoc } from 'firebase/firestore';
 import Layout from '../components/Layout/index';
+import { wrapper } from 'app/store';
 
-export default function App({ Component, pageProps }: AppProps) {
+function App({ Component, pageProps }: AppProps) {
   const [loggedInUser, loading, _error] = useAuthState(auth);
 
   useEffect(() => {
@@ -42,3 +44,5 @@ export default function App({ Component, pageProps }: AppProps) {
     </Layout >
   )
 }
+
+export default wrapper.withRedux(App);
