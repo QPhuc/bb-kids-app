@@ -36,10 +36,7 @@ export default function Home() {
 }
 
 export const getServerSideProps = wrapper.getServerSideProps(store => async ({resolvedUrl}) => {
-  console.log('resolvedUrl', resolvedUrl);
-
   store.dispatch(setProfileData('Phuc Tran'));
-
   return {
     props: {
       resolvedUrl
