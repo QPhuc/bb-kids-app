@@ -16,22 +16,22 @@ export default function Header() {
       <StyledHeaderWrapper>
         <StyledHeaderNav>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className={styles.navTitle}>SALE</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className={styles.navTitle}>SALE</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>WOMEN</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className='nav-title'>WOMEN</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>MEN</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className='nav-title'>MEN</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>GILRS</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className='nav-title'>GILRS</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>BOYS</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className='nav-title'>BOYS</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <a href=''><StyledNavTitle className='nav-title'>BABY</StyledNavTitle></a>
+            <Link href='/search'><StyledNavTitle className='nav-title'>BABY</StyledNavTitle></Link>
           </StyledHeaderNavItem>
         </StyledHeaderNav>
         <StyledHeaderAfterNav>
