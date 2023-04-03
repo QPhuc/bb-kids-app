@@ -2,8 +2,12 @@ import { auth } from '@/config/firebase';
 import { signOut } from 'firebase/auth';
 import Head from 'next/head'
 import Link from 'next/link'
+import { wrapper } from 'app/store';
+import { useSelector } from 'react-redux';
+import { selectProfile, setProfileData } from '@/app/store/slices/profile';
 
 export default function Home() {
+  const profile = useSelector(selectProfile);
   const logout = async () => {
     try {
       await signOut(auth);
@@ -24,9 +28,21 @@ export default function Home() {
       </Head>
       <main>
         <button onClick={logout}>Logout</button>
-
+        <h1>{ profile.name }</h1>
         <button><Link href="/products/1">Detail Products</Link></button>
       </main>
     </>
   )
 }
+
+export const getServerSideProps = wrapper.getServerSideProps(store => async ({resolvedUrl}) => {
+  console.log('resolvedUrl', resolvedUrl);
+
+  store.dispatch(setProfileData('Phuc Tran'));
+
+  return {
+    props: {
+      resolvedUrl
+    }
+  }
+})
