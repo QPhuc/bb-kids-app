@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import { StyledHeader, StyledHeaderWrapper, StyledHeaderNav, StyledHeaderRightWrapper, StyledHeaderAfterNav, StyledHeaderNavItem, StyledIcon, StyledWrapperIcon, StyledBasketIcon, StyledBasketCount, StyledNavTitle } from './styled';
-import Logo from '@/assets/images/logo.jpg';
-import styles from './styles.module.scss';
 import SearchSharpIcon from '@mui/icons-material/SearchSharp';
 import PersonOutlineSharpIcon from '@mui/icons-material/PersonOutlineSharp';
 import KeyboardArrowDownSharpIcon from '@mui/icons-material/KeyboardArrowDownSharp';
 import WorkOutlineSharpIcon from '@mui/icons-material/WorkOutlineSharp';
 import Link from 'next/link';
+
+import { StyledHeader, StyledHeaderWrapper, StyledHeaderNav, StyledHeaderRightWrapper, StyledHeaderAfterNav, StyledHeaderNavItem, StyledIcon, StyledWrapperIcon, StyledBasketIcon, StyledBasketCount, StyledNavTitle } from './styled';
+import Logo from '@/assets/images/logo.jpg';
 
 export default function Header() {
   return (
@@ -16,22 +16,22 @@ export default function Header() {
       <StyledHeaderWrapper>
         <StyledHeaderNav>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className={styles.navTitle}>SALE</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>SALE</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className='nav-title'>WOMEN</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>WOMEN</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className='nav-title'>MEN</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>MEN</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className='nav-title'>GILRS</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>GILRS</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className='nav-title'>BOYS</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>BOYS</StyledNavTitle></Link>
           </StyledHeaderNavItem>
           <StyledHeaderNavItem>
-            <Link href='/search'><StyledNavTitle className='nav-title'>BABY</StyledNavTitle></Link>
+            <Link href='/search'><StyledNavTitle>BABY</StyledNavTitle></Link>
           </StyledHeaderNavItem>
         </StyledHeaderNav>
         <StyledHeaderAfterNav>
