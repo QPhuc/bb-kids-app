@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { StyledMenuWrapper } from './styled'
+
 export default function Menu() {
     return (
-        <div>Menu</div>
+        <StyledMenuWrapper>Menu</StyledMenuWrapper>
     )
 }
